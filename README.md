@@ -1,4 +1,4 @@
-# uploadToGoogleDriver
+# uploadToGoogleDrive
 
 ## Getting Started
 Step 1 : download this script
