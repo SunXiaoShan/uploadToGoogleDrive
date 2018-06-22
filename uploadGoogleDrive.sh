@@ -29,7 +29,7 @@ fi
 FOLDER_LIST=$(gdrive list)
 echo $FOLDER_LIST
 
-# Step 7 : create folder on google driver
+# Step 7 : create folder on google drive
 RESULT=$(gdrive mkdir $FolderName -p $ROOT_FOLDER_ID)
 DIR_GID=$(echo $RESULT | awk '{print $2}')
 
